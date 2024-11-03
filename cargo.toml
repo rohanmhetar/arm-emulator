@@ -1,0 +1,8 @@
+[package]
+name = "gba_emulator"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+sdl2 = "0.34.5"
+cpal = "0.13.1"
