@@ -40,3 +40,20 @@ The memory module organizes GBA memory regions, including ROM, RAM, video memory
 ### Graphics
 
 Graphics rendering is handled by SDL2, which displays the emulator’s framebuffer in a dedicated window. SDL2 allows the emulator to maintain high frame rates and smooth transitions, simulating the GBA screen’s 240x160 resolution.
+
+## Installation
+
+To set up the GBA Emulator, follow these steps:
+
+1. **Install SDL2 and CPAL dependencies**:
+
+   - **For Linux**: `sudo apt-get install libsdl2-dev`
+   - **For macOS with Homebrew**: `brew install sdl2`
+   - **For Windows**: Download SDL2 from the [SDL2 website](https://www.libsdl.org/download-2.0.php) and follow the installation instructions.
+
+2. **Clone the Repository**: Clone this repository to your local machine and navigate to the project directory: `git clone https://github.com/yourusername/gba_emulator.git` and then `cd gba_emulator`
+
+3. **Build the Project**: Build the project in release mode using Cargo: `cargo build --release`
+
+4. **Run the Emulator**: To run the emulator, provide a GBA ROM file as input. The emulator will launch in a window with real-time graphics and audio. Use `cargo run --release -- <path_to_rom>`
+
