@@ -51,7 +51,7 @@ To set up the GBA Emulator, follow these steps:
    - **For macOS with Homebrew**: `brew install sdl2`
    - **For Windows**: Download SDL2 from the [SDL2 website](https://www.libsdl.org/download-2.0.php) and follow the installation instructions.
 
-2. **Clone the Repository**: Clone this repository to your local machine and navigate to the project directory: `git clone https://github.com/rohanmhetar/gba_emulator.git` and then `cd gba_emulator`
+2. **Clone the Repository**: Clone this repository to your local machine and navigate to the project directory: `git clone https://github.com/rohanmhetar/arm-emulator.git` and then `cd arm-emulator`
 
 3. **Build the Project**: Build the project in release mode using Cargo: `cargo build --release`
 
